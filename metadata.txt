@@ -1,0 +1,19 @@
+[general]
+name=Emprise Inrap
+qgisMinimumVersion=3.16
+description=Positionne automatiquement une emprise (EPSG:2154) sur les mises en page 250/25/cadastre, bascule les thèmes régionaux, renseigne X/Y/Z (NGF) et exporte les 3 PDF.
+version=0.14.0
+author=M. Belarbi / Claude
+email=none@example.com
+icon=icons/icon.png
+license=GPL-3.0
+
+about=Ce plugin a été écrit "à froid", par analyse du fichier projet Cartes_localisation_v20240306.qgz fourni (mises en page "A-B-C-localisation" et "D-25 000-cadastre", thèmes A_France_*, B_Départements_*, C 250, D 25, D cadastre, couches dept_<région>, style Emprise_pg.qml). Il n'a pas pu être testé dans un QGIS réel : vérifiez les noms de couches/mises en page/thèmes (section CONFIG en tête de core.py) et ajustez-les si votre projet a légèrement évolué.
+
+homepage=https://github.com/zorgglubb/emprise-inrap
+tracker=https://github.com/zorgglubb/emprise-inrap/issues
+repository=https://github.com/zorgglubb/emprise-inrap
+experimental=True
+deprecated=False
+hasProcessingProvider=no
+category=Plugins
